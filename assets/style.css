@@ -53,3 +53,23 @@ nav a {
 nav a:hover { text-decoration: underline; }
 
 html { scroll-behavior: smooth; }
+
+#modoOscuro {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 10px 20px;
+  background-color: #2f5496;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+body.oscuro {
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}
+
+body.oscuro section {
+  background-color: #2a2a2a;
+}
