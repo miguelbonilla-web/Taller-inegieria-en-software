@@ -27,3 +27,29 @@ section {
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
+ul { padding-left: 20px; }
+
+code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+}
+
+nav {
+  background-color: #1f3a63;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav a:hover { text-decoration: underline; }
+
+html { scroll-behavior: smooth; }
